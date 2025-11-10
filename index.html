@@ -3,23 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centered Icon</title>
+  <title>Повноекранне зображення</title>
   <style>
     body {
       margin: 0;
       height: 100vh;
-      display: flex;
-      justify-content: center; /* по горизонталі */
-      align-items: center;     /* по вертикалі */
-      background-color: #f0f0f0;
-    }
-    img {
-      max-width: 200px; /* можна змінити розмір */
-      height: auto;
+      background-color: orange; /* фон */
+      background-image: url('icon.png'); /* зображення */
+      background-size: cover; /* розтягнути на весь екран */
+      background-position: center; /* по центру */
+      background-repeat: no-repeat; /* без повторень */
     }
   </style>
 </head>
 <body>
-  <img src="icon.png" alt="Icon">
 </body>
 </html>
