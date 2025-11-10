@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +7,19 @@
     body {
       margin: 0;
       height: 100vh;
+      display: flex;
+      justify-content: center; /* по горизонталі */
+      align-items: center;     /* по вертикалі */
       background-color: orange; /* фон */
-      background-image: url('icon.png'); /* зображення */
-      background-size: cover; /* розтягнути на весь екран */
-      background-position: center; /* по центру */
-      background-repeat: no-repeat; /* без повторень */
+    }
+
+    img {
+      width: 300px; /* розмір картинки */
+      height: auto;
     }
   </style>
 </head>
 <body>
+  <img src="icon.png" alt="Icon">
 </body>
 </html>
