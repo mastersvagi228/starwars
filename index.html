@@ -2,6 +2,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>south park</title>
+  <title>Повноекранне зображення</title>
+  <style>
+    /* Знімаємо відступи та робимо чорний фон */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: black;
+    }
+
+    /* Картинка на весь екран */
+    body {
+      background-image: url('sitx.png'); /* шлях до твоєї картинки */
+      background-size: cover;            /* робить її на весь екран */
+      background-position: center;       /* центрує */
+      background-repeat: no-repeat;      /* не повторює */
+      background-attachment: fixed;      /* фіксує при скролі (опціонально) */
+    }
+  </style>
+</head>
+<body>
 </body>
 </html>
